@@ -7,6 +7,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import styled from "styled-components";
 import { langues } from "../data";
+import logo from "../images/linkedin-logo.svg"
 
 const Container = styled.div`
   margin: 20px 30px;
@@ -69,7 +70,7 @@ function Footer() {
   return (
     <Container>
       <Logo>
-        <img src="/images/linkedin-logo.svg" alt="logo" />
+        <img src={logo} alt="logo" />
       </Logo>
       <Content>
         <Ul>
@@ -182,7 +183,7 @@ function Footer() {
         </Ul>
       </Content>
       <p>
-        <img src="/images/linkedin-logo.svg" alt="logo" /> Corporation &copy;
+        <img src={logo} alt="logo" /> Corporation &copy;
         {new Date().getFullYear()}
       </p>
     </Container>

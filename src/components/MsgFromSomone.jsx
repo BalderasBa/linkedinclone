@@ -8,6 +8,13 @@ import uniqid from "uniqid";
 import { msgs } from "../data";
 import MsgsFromId from "./MsgsFromId";
 
+// images
+import imageSVG from "../images/image-icon.svg";
+import fileSVG from "../images/file-icon.svg";
+import gifSVG from "../images/gif-icon.svg";
+import emojiSVG from "../images/emoji-icon.svg";
+import ellipsisSVG from "../images/ellipsis.svg";
+
 const Container = styled.div`
   border: 1px solid #0002;
   background-color: #fff;
@@ -192,26 +199,26 @@ function MsgFromSomone() {
         <SharedCreation>
           <Assets>
             <AssetBtn>
-              <img src="/images/image-icon.svg" alt="" />
+              <img src={imageSVG} alt="" />
               <span>Attach a photo</span>
             </AssetBtn>
             <AssetBtn>
-              <img src="/images/file-icon.svg" alt="" />
+              <img src={fileSVG} alt="" />
               <span>Attach a file</span>
             </AssetBtn>
             <AssetBtn>
-              <img src="/images/gif-icon.svg" alt="" />
+              <img src={gifSVG} alt="" />
               <span>Open GIF Keyboard</span>
             </AssetBtn>
             <AssetBtn>
-              <img src="/images/emoji-icon.svg" alt="" />
+              <img src={emojiSVG} alt="" />
               <span>Open Emoji Keyboard</span>
             </AssetBtn>
           </Assets>
           <ShareComment>
             <PostButton disabled={!editorText ? true : false}>Send</PostButton>
             <Assetshare>
-              <img src="/images/ellipsis.svg" alt="" />
+              <img src={ellipsisSVG} alt="" />
             </Assetshare>
           </ShareComment>
         </SharedCreation>

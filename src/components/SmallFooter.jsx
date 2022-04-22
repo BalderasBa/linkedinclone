@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
+import downSVG from "../images/down-arrow.svg";
+import logoSVG from "../images/linkedin-logo.svg";
 
 function SmallFooter() {
   const [clicked, setClicked] = useState(false);
@@ -23,7 +25,7 @@ function SmallFooter() {
           }}
         >
           <a href="#">Privacy & Terms</a>
-          <img src="/images/down-arrow.svg" alt="" />
+          <img src={downSVG} alt="" />
           <Div clicked={clicked}>
             <a href="">Privacy Policy</a>
             <a href="">User Agreement</a>
@@ -48,7 +50,8 @@ function SmallFooter() {
         </li>
       </ul>
       <p>
-        <img src="/images/linkedin-logo.svg" alt="" /> Corporation &copy;
+        <img src={logoSVG} alt="" />
+        Corporation &copy;
         {new Date().getFullYear()}
       </p>
     </Small>

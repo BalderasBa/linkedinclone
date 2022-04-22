@@ -16,16 +16,19 @@ function App() {
   return (
     <BrowserRouter className="App">
       <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/signup" element={<Signup />} />
-        <Route path="/signin" element={<Signin />} />
-        <Route path="/forgotpassword" element={<ForgotPass />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/network" element={<MyNetwork />} />
-        <Route path="/jobs" element={<Jobs />} />
-        <Route path="/messaging" element={<Messaging />} />
-        <Route path="/notifications" element={<Notifications />} />
-        <Route path="/profile" element={<Profile />} />
+        <Route path="/linkedinclone/" element={<Login />} />
+        <Route path="/linkedinclone/signup" element={<Signup />} />
+        <Route path="/linkedinclone/signin" element={<Signin />} />
+        <Route path="/linkedinclone/forgotpassword" element={<ForgotPass />} />
+        <Route path="/linkedinclone/home" element={<Home />} />
+        <Route path="/linkedinclone/network" element={<MyNetwork />} />
+        <Route path="/linkedinclone/jobs" element={<Jobs />} />
+        <Route path="/linkedinclone/messaging" element={<Messaging />} />
+        <Route
+          path="/linkedinclone/notifications"
+          element={<Notifications />}
+        />
+        <Route path="/linkedinclone/profile" element={<Profile />} />
       </Routes>
     </BrowserRouter>
   );

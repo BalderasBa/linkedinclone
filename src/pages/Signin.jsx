@@ -3,6 +3,9 @@ import styled from "styled-components";
 
 import Footer from "../components/Footer";
 
+import loginSVG from "../images/login-logo.svg";
+import appleSVG from "../images/apple-icon.svg";
+
 const Signin = () => {
   const [passwordShown, setPasswordShown] = useState(false);
 
@@ -11,7 +14,7 @@ const Signin = () => {
       <Container>
         <Nav>
           <a href="/">
-            <img src="/images/login-logo.svg" alt="" />
+            <img src={loginSVG} alt="" />
           </a>
         </Nav>
         <Section>
@@ -54,7 +57,7 @@ const Signin = () => {
             <hr />
           </Or>
           <Google>
-            <img src="/images/apple-icon.svg" alt="" />
+            <img src={appleSVG} alt="" />
             Sign In with Apple
           </Google>
           <Forgot>

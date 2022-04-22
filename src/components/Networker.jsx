@@ -4,13 +4,15 @@ import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 
+import cardBgSVG from "../images/card-bg.svg";
+
 function Networker() {
   return (
     <Container>
       {networks.map((network) => {
         return (
           <Layout key={uniqid()}>
-            <img src={network.cover} alt="cover" />
+            <img src={cardBgSVG} alt="cover" />
             <LayoutContnet>
               <img src={network.profileImg} alt="avatar" />
               <h3>

@@ -5,6 +5,17 @@ import { useState } from "react";
 import styled from "styled-components";
 import Works from "./Works";
 
+// images:
+import homelogoSVG from "../images/home-logo.svg";
+import searchIconSVG from "../images/search-icon.svg";
+import navHomeSVG from "../images/nav-home.svg";
+import navNetworkSVG from "../images/nav-network.svg";
+import navJobsSVG from "../images/nav-jobs.svg";
+import navMessagingSVG from "../images/nav-messaging.svg";
+import navNotificationsSVG from "../images/nav-notifications.svg";
+import navWorkSVG from "../images/nav-work.svg";
+import downIconSVG from "../images/down-icon.svg";
+
 const Header = (props) => {
   const [showWorks, setShowWorks] = useState("close");
   const [me, setMe] = useState(false);
@@ -31,7 +42,7 @@ const Header = (props) => {
       <Content>
         <Logo>
           <a href="/home">
-            <img src="/images/home-logo.svg" alt="" />
+            <img src={homelogoSVG} alt="" />
           </a>
         </Logo>
         <Search>
@@ -39,35 +50,35 @@ const Header = (props) => {
             <input type="text" placeholder="Search" />
           </div>
           <SearchIcon>
-            <img src="/images/search-icon.svg" alt="" />
+            <img src={searchIconSVG} alt="" />
           </SearchIcon>
         </Search>
         <Nav>
           <NavListWrap>
             <NavList className={props.active === "home" ? "active" : ""}>
               <a href="/home">
-                <img src="/images/nav-home.svg" alt="" />
+                <img src={navHomeSVG} alt="" />
                 <span>Home</span>
               </a>
             </NavList>
 
             <NavList className={props.active === "network" ? "active" : ""}>
               <a href="/network">
-                <img src="/images/nav-network.svg" alt="" />
+                <img src={navNetworkSVG} alt="" />
                 <span>My Network</span>
               </a>
             </NavList>
 
             {/* <NavList className={props.active === "jobs" ? "active" : ""}>
               <a href="/jobs">
-                <img src="/images/nav-jobs.svg" alt="" />
+                <img src={navJobsSVG} alt="" />
                 <span>Jobs</span>
               </a>
             </NavList> */}
 
             <NavList className={props.active === "messaging" ? "active" : ""}>
               <a href="/messaging">
-                <img src="/images/nav-messaging.svg" alt="" />
+                <img src={navMessagingSVG} alt="" />
                 <span>
                   Messaging <span>3</span>
                 </span>
@@ -78,7 +89,7 @@ const Header = (props) => {
               className={props.active === "notifications" ? "active" : ""}
             >
               <a href="/notifications">
-                <img src="/images/nav-notifications.svg" alt="" />
+                <img src={navNotificationsSVG} alt="" />
                 <span>
                   Notifications <span>11</span>
                 </span>
@@ -99,7 +110,7 @@ const Header = (props) => {
                 <img src="https://i.ibb.co/ZcJ50Vs/screenshot.jpg" alt="" />
                 <div>
                   <span>Me</span>
-                  <img src="/images/down-icon.svg" alt="" />
+                  <img src={downIconSVG} alt="" />
                 </div>
               </a>
             </User>
@@ -116,10 +127,10 @@ const Header = (props) => {
                   }
                 }}
               >
-                <img src="/images/nav-work.svg" alt="" />
+                <img src={navWorkSVG} alt="" />
                 <div>
                   <span>Work</span>
-                  <img src="/images/down-icon.svg" alt="" />
+                  <img src={downIconSVG} alt="" />
                 </div>
               </a>
               <a href="#">Try Premium for free</a>

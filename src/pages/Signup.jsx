@@ -9,6 +9,9 @@ import { useSelector, useDispatch } from "react-redux";
 import { SET_USER } from "../actions/actionTypes";
 import Footer from "../components/Footer";
 
+import loginSVG from "../images/login-logo.svg";
+import googleSVG from "../images/google.svg";
+
 const Signup = () => {
   const [passwordShown, setPasswordShown] = useState(false);
 
@@ -27,7 +30,7 @@ const Signup = () => {
       <Container>
         <Nav>
           <a href="/">
-            <img src="/images/login-logo.svg" alt="" />
+            <img src={loginSVG} alt="" />
           </a>
         </Nav>
         <H1>Make the most of your professional life</H1>
@@ -71,7 +74,7 @@ const Signup = () => {
             <hr />
           </Or>
           <Google onClick={() => dispatch(signInAPI())}>
-            <img src="/images/google.svg" alt="" />
+            <img src={googleSVG} alt="" />
             Continue with Google
           </Google>
           <p>

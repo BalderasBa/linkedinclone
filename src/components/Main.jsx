@@ -2,6 +2,20 @@ import { useState } from "react";
 import styled from "styled-components";
 import PostModal from "./PostModal";
 
+// images:
+import userSVG from "../images/user.svg";
+import imageSVG from "../images/image-icon.svg";
+import videoSVG from "../images/video-icon.svg";
+import eventSVG from "../images/event-icon.svg";
+import articleSVG from "../images/article-icon.svg";
+import shoingSVG from "../images/shoing-post.svg";
+import ellipsisPNG from "../images/ellipsis.png";
+import sharedImageSVG from "../images/shared-image.jpg";
+import likeSVG from "../images/like-icon.svg";
+import commentSVG from "../images/comment-icon.svg";
+import shareSVG from "../images/share-icon.svg";
+import sendSVG from "../images/send-icon.svg";
+
 function Main() {
   const [showModal, setShowModal] = useState("close");
   const handlClickToPost = (e) => {
@@ -25,24 +39,25 @@ function Main() {
     <Container>
       <Sharebox>
         <div>
-          <img src="/images/user.svg" alt="" />
+          <img src={userSVG} alt="" />
           <button onClick={handlClickToPost}>Start a post</button>
         </div>
         <div>
           <button>
-            <img src="/images/image-icon.svg" alt="" />
+            <img src={imageSVG} alt="" />
+
             <span>Photo</span>
           </button>
           <button>
-            <img src="/images/video-icon.svg" alt="" />
+            <img src={videoSVG} alt="" />
             <span>Video</span>
           </button>
           <button>
-            <img src="/images/event-icon.svg" alt="" />
+            <img src={eventSVG} alt="" />
             <span>Event</span>
           </button>
           <button>
-            <img src="/images/article-icon.svg" alt="" />
+            <img src={articleSVG} alt="" />
             <span>Article</span>
           </button>
         </div>
@@ -51,7 +66,7 @@ function Main() {
         <Article>
           <SharedActor>
             <a>
-              <img src="/images/user.svg" alt="" />
+              <img src={userSVG} alt="" />
               <div>
                 <span>Yehya Hallousse</span>
                 <span>
@@ -59,18 +74,18 @@ function Main() {
                 </span>
                 <span>
                   13h
-                  <img src="/images/shoing-post.svg" alt="" />
+                  <img src={shoingSVG} alt="" />
                 </span>
               </div>
             </a>
             <button>
-              <img src="/images/ellipsis.png" alt="" />
+              <img src={ellipsisPNG} alt="" />
             </button>
           </SharedActor>
           <Descrption>I visited this city, it's awsome &#128525;</Descrption>
           <ShareImg>
             <a>
-              <img src="/images/shared-image.jpg" alt="" />
+              <img src={sharedImageSVG} alt="" />
             </a>
           </ShareImg>
           <SocialCounter>
@@ -101,19 +116,19 @@ function Main() {
           </SocialCounter>
           <SocialActions>
             <button>
-              <img src="/images/like-icon.svg" alt="" />
+              <img src={likeSVG} alt="" />
               <span>Like</span>
             </button>
             <button>
-              <img src="/images/comment-icon.svg" alt="" />
+              <img src={commentSVG} alt="" />
               <span>Comment</span>
             </button>
             <button>
-              <img src="/images/share-icon.svg" alt="" />
+              <img src={shareSVG} alt="" />
               <span>Share</span>
             </button>
             <button>
-              <img src="/images/send-icon.svg" alt="" />
+              <img src={sendSVG} alt="" />
               <span>Send</span>
             </button>
           </SocialActions>

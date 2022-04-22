@@ -3,13 +3,19 @@ import { faCalendarPlus, faPlus } from "@fortawesome/free-solid-svg-icons";
 
 import styled from "styled-components";
 import Pub from "./Pub";
+
+import feedSVG from "../images/feed-icon.svg";
+import userSVG from "../images/user.svg";
+import rightSVG from "../images/right-icon.svg";
+
+
 function Rightside() {
   return (
     <Container>
       <FollowCard>
         <Title>
           <h2>Add to your feed</h2>
-          <img src="/images/feed-icon.svg" alt="" />
+        <img src={feedSVG} alt="" />
         </Title>
 
         <FeedList>
@@ -31,19 +37,19 @@ function Rightside() {
 
         <Recommendation>
           View all recommendations
-          <img src="/images/right-icon.svg" alt="" />
+        <img src={rightSVG} alt="" />
         </Recommendation>
       </FollowCard>
       <Pub/>
       <FollowCard>
         <Title>
           <h2>Add to your feed</h2>
-          <img src="/images/feed-icon.svg" alt="" />
+        <img src={feedSVG} alt="" />
         </Title>
 
         <FeedList>
           <li>
-            <img src="/images/user.svg" alt="" />
+        <img src={userSVG} alt="" />
             <div>
               <span>Missis One</span>
               <button>
@@ -52,7 +58,7 @@ function Rightside() {
             </div>
           </li>
           <li>
-            <img src="/images/user.svg" alt="" />
+        <img src={userSVG} alt="" />
             <div>
               <span>Mister Two</span>
               <button>
@@ -61,7 +67,7 @@ function Rightside() {
             </div>
           </li>
           <li>
-            <img src="/images/user.svg" alt="" />
+        <img src={userSVG} alt="" />
             <div>
               <span>Madame Three</span>
               <button>
@@ -73,7 +79,7 @@ function Rightside() {
 
         <Recommendation>
           View all recommendations
-          <img src="/images/right-icon.svg" alt="" />
+        <img src={rightSVG} alt="" />
         </Recommendation>
       </FollowCard>
     </Container>

@@ -1,8 +1,19 @@
 import styled from "styled-components";
 import { useState } from "react";
 import ReactPlayer from "react-player";
-// from 05:50:15 to the end of tuto 07:07:54
 import { useDispatch, useSelector } from "react-redux";
+
+// Images:
+import closeSVG from "../images/close-icon.svg";
+import userSVG from "../images/user.svg";
+import imageSVG from "../images/image-icon.svg";
+import videoSVG from "../images/video-icon.svg";
+import documentSVG from "../images/document-icon.svg";
+import hirringSVG from "../images/hirring-icon.svg";
+import celebrateSVG from "../images/celebrate-icon.svg";
+import pollSVG from "../images/poll-icon.svg";
+import ellipsisSVG from "../images/ellipsis.svg";
+import sharedcommentSVG from "../images/sharedcomment.svg";
 
 const PostModal = (props) => {
   const [editorText, setEditorText] = useState("");
@@ -38,12 +49,12 @@ const PostModal = (props) => {
             <Header>
               <h2>Create a post </h2>
               <button onClick={(e) => reset(e)}>
-                <img src="./images/close-icon.svg" alt="" />
+                <img src={closeSVG} alt="" />
               </button>
             </Header>
             <SharedContent>
               <UserInfo>
-                <img src="/images/user.svg" alt="" />
+                <img src={userSVG} alt="" />
                 <span>Yehya Hallousse</span>
                 <select>
                   <option value="anyone">Anyone</option>
@@ -99,38 +110,38 @@ const PostModal = (props) => {
             <SharedCreation>
               <Assets>
                 <AssetBtn onClick={() => switchAssetArea("image")}>
-                  <img src="/images/image-icon.svg" alt="" />
+                  <img src={imageSVG} alt="" />
                   <span>Add a photo</span>
                 </AssetBtn>
                 <AssetBtn onClick={() => switchAssetArea("media")}>
-                  <img src="/images/video-icon.svg" alt="" />
+                  <img src={videoSVG} alt="" />
                   <span>Add a video</span>
                 </AssetBtn>
                 <AssetBtn onClick={() => switchAssetArea("document")}>
-                  <img src="/images/document-icon.svg" alt="" />
+                  <img src={documentSVG} alt="" />
                   <span>Add a document</span>
                 </AssetBtn>
                 <AssetBtn onClick={() => switchAssetArea("hiring")}>
-                  <img src="/images/hirring-icon.svg" alt="" />
+                  <img src={hirringSVG} alt="" />
                   <span>Share that you’re hiring</span>
                 </AssetBtn>
                 <AssetBtn onClick={() => switchAssetArea("celebrate")}>
-                  <img src="/images/celebrate-icon.svg" alt="" />
+                  <img src={celebrateSVG} alt="" />
                   <span>Celebrate an occasion</span>
                 </AssetBtn>
                 <AssetBtn onClick={() => switchAssetArea("poll")}>
-                  <img src="/images/poll-icon.svg" alt="" />
+                  <img src={pollSVG} alt="" />
                   <span>Create a Poll</span>
                 </AssetBtn>
                 <AssetBtn onClick={() => switchAssetArea("addto")}>
-                  <img src="/images/ellipsis.svg" alt="" />
+                  <img src={ellipsisSVG} alt="" />
                   <span>Add to your post</span>
                 </AssetBtn>
               </Assets>
               <ShareComment>
                 <Assetshare>
                   <>
-                    <img src="/images/sharedcomment.svg" alt="" />
+                    <img src={sharedcommentSVG} alt="" />
                     <p> Comments on </p>
                   </>
                 </Assetshare>

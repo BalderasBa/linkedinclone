@@ -38,7 +38,7 @@ function Jobs() {
       <Container>
         <Section>
           <h5>
-            <a href=""> Hiring in a hurry? - </a>
+            <a href="#"> Hiring in a hurry? - </a>
           </h5>
           <p>
             Find talented pros in record time with Upwork and keep business
@@ -46,7 +46,7 @@ function Jobs() {
           </p>
         </Section>
         <br />
-        <h1>Not Implemented yet</h1>
+        <h1>There is No job for u</h1>
       </Container>
       <Footer />
     </div>

@@ -13,6 +13,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Messages from "./Messages";
 import uniqid from "uniqid";
 import { msgs } from "../data";
+import userSVG from "../images/user.svg";
 
 const Container = styled.div`
   z-index: 1001;
@@ -100,7 +101,7 @@ function Messagingcomp(props) {
   return (
     <Container messagesOn={messages}>
       <Header onClick={() => setMessages(!messages)}>
-        <img src="/images/user.svg" alt="" />
+        <img src={userSVG} alt="" />
         <span className="online"></span>
         <h3>Messaging</h3>
         <div>

@@ -1,5 +1,12 @@
 import styled from "styled-components";
 
+// images:
+import widgetIconSVG from "../images/widget-icon.svg";
+import itemIconSVG from "../images/item-icon.svg";
+import plusIconSVG from "../images/plus-icon.svg";
+import cardBgSVG from "../images/card-bg.svg";
+import photoSVG from "../images/photo.svg";
+
 function Leftside() {
   return (
     <Container>
@@ -21,12 +28,13 @@ function Leftside() {
               <span>Connections</span>
               <span>Grow your network</span>
             </div>
-            <img src="/images/widget-icon.svg" alt="" />
+            <img src={widgetIconSVG} alt="" />
           </a>
         </Widget>
         <Item>
           <span>
-            <img src="/images/item-icon.svg" alt="" />
+            <img src={itemIconSVG} alt="" />
+
             My Items
           </span>
         </Item>
@@ -39,7 +47,8 @@ function Leftside() {
         <a>
           <span>
             Events
-            <img src="/images/plus-icon.svg" alt="" />
+            <img src={plusIconSVG} alt="" />
+
           </span>
         </a>
         <a>
@@ -72,7 +81,7 @@ const UserInfo = styled.div`
   padding: 12px 12px 16px;
 `;
 const CardBackground = styled.div`
-  background: url("/images/card-bg.svg");
+  background: url(${cardBgSVG});
   background-position: center;
   background-size: 462px;
   height: 54px;
@@ -80,7 +89,7 @@ const CardBackground = styled.div`
 `;
 const Photo = styled.div`
   box-shadow: none;
-  background-image: url("/images/photo.svg");
+  background-image: url(${photoSVG});
   width: 72px;
   height: 72px;
   box-sizing: border-box;

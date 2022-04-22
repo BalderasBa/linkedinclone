@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 
 import Footer from "../components/Footer";
+import loginSVG from "../images/login-logo.svg";
 
 const ForgotPass = () => {
   // const [passwordShown, setPasswordShown] = useState(false);
@@ -9,15 +10,15 @@ const ForgotPass = () => {
   return (
     <>
       <Container>
-      <Nav>
-        <a href="/">
-          <img src="/images/login-logo.svg" alt="" />
-        </a>
-        <div>
-          <Join href="/signup">Join now</Join>
-          <SignIn href="/signin">Sign in</SignIn>
-        </div>
-      </Nav>
+        <Nav>
+          <a href="/">
+            <img src={loginSVG} alt="" />
+          </a>
+          <div>
+            <Join href="/signup">Join now</Join>
+            <SignIn href="/signin">Sign in</SignIn>
+          </div>
+        </Nav>
         <Section>
           <H1>
             Forgot password ?<p>Reset password in two quick steps</p>
@@ -54,7 +55,7 @@ const H1 = styled.h1`
   }
 `;
 const Container = styled.div`
-margin-bottom: 100px;
+  margin-bottom: 100px;
 `;
 
 const Nav = styled.nav`

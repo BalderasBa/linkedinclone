@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import { faBellSlash, faTrash } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ellipsisSVG from "../images/ellipsis.svg";
+import userSVG from "../images/user.svg";
+
+
 
 const Notific = styled.div`
   display: flex;
@@ -68,14 +72,14 @@ const Notification = (props) => {
   const [showNot, setShowNot] = useState(false);
   return (
     <Notific>
-      <img src="/images/user.svg" alt="" />
+      <img src={userSVG} alt="" />
       <a href="#">{props.notific.not}</a>
       <div>
         <span>{props.notific.time}</span>
         <a href="#">
           <img
             className="ellipsis"
-            src="/images/ellipsis.svg"
+            src={ellipsisSVG}
             alt=""
             onClick={() => setShowNot(!showNot)}
           />

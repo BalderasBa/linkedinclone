@@ -8,6 +8,11 @@ import { useSelector, useDispatch } from "react-redux";
 // to here
 import { SET_USER } from "../actions/actionTypes";
 
+import loginSVG from "../images/login-logo.svg";
+import welcomeSVG from "../images/login-welcom.svg";
+import rightSVG from "../images/right-icon.svg";
+import googleSVG from "../images/google.svg";
+
 const Login = () => {
   // test from here
   const { user } = useSelector((user) => user.userState);
@@ -23,7 +28,7 @@ const Login = () => {
     <Container>
       <Nav>
         <a href="/">
-          <img src="/images/login-logo.svg" alt="" />
+          <img src={loginSVG} alt="" />
         </a>
         <div>
           <Join href="/signup">Join now</Join>
@@ -33,24 +38,24 @@ const Login = () => {
       <Section>
         <Hero>
           <h1>Welcome to your professional community</h1>
-          <img src="/images/login-welcom.svg" alt="" />
+          <img src={welcomeSVG} alt="" />
         </Hero>
         <Form>
           {/* <Google onClick={() => dispatch(signInAPI())}> */}
           <Google>
             Search for a job
-            <img src="/images/right-icon.svg" alt="" />
+            <img src={rightSVG} alt="" />
           </Google>
           <Google>
             Find a person you know
-            <img src="/images/right-icon.svg" alt="" />
+            <img src={rightSVG} alt="" />
           </Google>
           <Google>
             Learn a new skill
-            <img src="/images/right-icon.svg" alt="" />
+            <img src={rightSVG} alt="" />
           </Google>
           <Google onClick={() => dispatch(signInAPI())}>
-            <img src="/images/google.svg" alt="" />
+            <img src={googleSVG} alt="" />
             Sign in with Google
           </Google>
         </Form>

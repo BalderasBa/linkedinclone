@@ -14,6 +14,10 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 import Messagingcomp from "../components/Messagingcomp";
+
+import linkedinSVG from "../images/linkedin.png";
+import cardBgSVG from "../images/card-bg.svg";
+
 const Container = styled.div`
   padding-top: 13.5vh;
   max-width: 100%;
@@ -38,7 +42,7 @@ const Section = styled.section`
   background-color: #fff;
   margin-bottom: 10px;
   border-radius: 10px;
-  h1{
+  h1 {
     font-size: 22px;
     margin-bottom: 5px;
   }
@@ -46,7 +50,7 @@ const Section = styled.section`
     padding: 0 5px;
   }
 `;
-const Cover = styled.img.attrs({ src: "/images/card-bg.svg" })`
+const Cover = styled.img.attrs({ src: { cardBgSVG } })`
   width: 100%;
   height: 150px;
   cursor: pointer;
@@ -67,7 +71,9 @@ const UserInfo = styled.div`
     margin-top: 5px;
   }
 `;
-const Photo = styled.img.attrs({ src: "https://i.ibb.co/ZcJ50Vs/screenshot.jpg" })`
+const Photo = styled.img.attrs({
+  src: "https://i.ibb.co/ZcJ50Vs/screenshot.jpg",
+})`
   position: absolute;
   width: 150px;
   height: 150px;
@@ -170,7 +176,7 @@ function Profile() {
               </Hbtns>
             </Head>
             <Scontent>
-              <img src="/images/linkedin.png" alt="" />
+              <img src={linkedinSVG} alt="" />
               <SCInofo>
                 <h2>OpenClassrooms</h2>
                 <p>Master of Computer Applications - MCA, Web development</p>
@@ -179,7 +185,7 @@ function Profile() {
               </SCInofo>
             </Scontent>
             <Scontent>
-              <img src="/images/linkedin.png" alt="" />
+              <img src={linkedinSVG} alt="" />
               <SCInofo>
                 <h2>Udemy</h2>
                 <p>React Js Tutorial</p>
@@ -205,7 +211,7 @@ function Profile() {
               </Hbtns>
             </Head>
             <Scontent>
-              <img src="/images/linkedin.png" alt="" />
+              <img src={linkedinSVG} alt="" />
               <SCInofo>
                 <h2>Front End Developer</h2>
                 <p>Company, State</p>

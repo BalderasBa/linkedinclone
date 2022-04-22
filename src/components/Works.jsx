@@ -10,6 +10,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
+import closeSVG from "../images/close-icon.svg";
 
 const Container = styled.div`
   position: fixed;
@@ -158,7 +159,7 @@ const Works = (props) => {
             <Header>
               <h2>Visit More LinkedIn Products </h2>
               <button onClick={(e) => props.handlClickToPost(e)}>
-                <img src="./images/close-icon.svg" alt="close button" />
+                <img src={closeSVG} alt="close button" />
               </button>
             </Header>
             <SharedContent>
