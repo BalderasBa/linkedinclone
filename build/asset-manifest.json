@@ -1,13 +1,17 @@
 {
   "files": {
     "main.css": "/linkedinclone/static/css/main.149aa04c.css",
-    "main.js": "/linkedinclone/static/js/main.cca714b3.js",
+    "main.js": "/linkedinclone/static/js/main.b5479128.js",
     "static/media/shared-image.jpg": "/linkedinclone/static/media/shared-image.70300049edb58daa88ac.jpg",
+    "static/media/login-welcom.svg": "/linkedinclone/static/media/login-welcom.5fab134b30015f482420fb159638d24f.svg",
+    "static/media/linkedin.png": "/linkedinclone/static/media/linkedin.bb933d6809d6410387a0.png",
     "static/media/login-logo.svg": "/linkedinclone/static/media/login-logo.15b7802b075e3e83c9e1c8fb6a581b36.svg",
     "static/media/nav-messaging.svg": "/linkedinclone/static/media/nav-messaging.9584eff2307e87584e6d10387a42211f.svg",
     "static/media/linkedin-logo.svg": "/linkedinclone/static/media/linkedin-logo.a122b3e59ccc9e40981c7d66e3902a69.svg",
     "static/media/celebrate-icon.svg": "/linkedinclone/static/media/celebrate-icon.29620aa8dc3f84b460af989a21d3507d.svg",
     "static/media/photo.svg": "/linkedinclone/static/media/photo.b826ffee63cd7ef528688a4fd807b1a1.svg",
+    "static/media/apple-icon.svg": "/linkedinclone/static/media/apple-icon.3de98b1f18af174e14f2c1588e6c9fb0.svg",
+    "static/media/google.svg": "/linkedinclone/static/media/google.c2362966a4a06e68d30ecf01dbfb13d1.svg",
     "static/media/like-icon.svg": "/linkedinclone/static/media/like-icon.27935871d942048c2db6a679910b940a.svg",
     "index.html": "/linkedinclone/index.html",
     "static/media/user.svg": "/linkedinclone/static/media/user.912f30c66c5c71501b5f09573301b3b0.svg",
@@ -44,10 +48,10 @@
     "static/media/poll-icon.svg": "/linkedinclone/static/media/poll-icon.c0a4a8f344bc5271c44b8c69b69e584d.svg",
     "static/media/down-arrow.svg": "/linkedinclone/static/media/down-arrow.d80a1d0fe8db001b4aa433cce5ac867f.svg",
     "main.149aa04c.css.map": "/linkedinclone/static/css/main.149aa04c.css.map",
-    "main.cca714b3.js.map": "/linkedinclone/static/js/main.cca714b3.js.map"
+    "main.b5479128.js.map": "/linkedinclone/static/js/main.b5479128.js.map"
   },
   "entrypoints": [
     "static/css/main.149aa04c.css",
-    "static/js/main.cca714b3.js"
+    "static/js/main.b5479128.js"
   ]
 }
