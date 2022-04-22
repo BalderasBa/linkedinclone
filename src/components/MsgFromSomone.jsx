@@ -155,7 +155,7 @@ function MsgFromSomone() {
     <Container messagesOn={messages}>
       <Header onClick={() => setMessages(!messages)}>
         <div>
-          <a href="/profile">Some One</a>
+          <a href="profile">Some One</a>
           <span className="online"></span>
           <span className="availabe">available on mobile</span>
         </div>

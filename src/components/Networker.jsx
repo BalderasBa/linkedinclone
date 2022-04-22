@@ -16,7 +16,7 @@ function Networker() {
             <LayoutContnet>
               <img src={network.profileImg} alt="avatar" />
               <h3>
-                <a href="/profile">{network.name}</a>
+                <a href="profile">{network.name}</a>
               </h3>
               <p>{network.bio}</p>
               <span>

@@ -27,12 +27,12 @@ const Login = () => {
   return (
     <Container>
       <Nav>
-        <a href="/">
+        <a href="/linkedinclone/">
           <img src={loginSVG} alt="" />
         </a>
         <div>
-          <Join href="/signup">Join now</Join>
-          <SignIn href="/signin">Sign in</SignIn>
+          <Join href="linkedinclone/signup">Join now</Join>
+          <SignIn href="linkedinclone/signin">Sign in</SignIn>
         </div>
       </Nav>
       <Section>

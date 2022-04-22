@@ -29,7 +29,7 @@ const Signup = () => {
     <>
       <Container>
         <Nav>
-          <a href="/">
+          <a href="/linkedinclone">
             <img src={loginSVG} alt="" />
           </a>
         </Nav>
@@ -120,7 +120,7 @@ const Section = styled.section`
   align-items: center;
   background-color: #fff;
   position: relative;
-  width: 30%;
+  width: 50%;
   padding: 20px;
   margin: auto;
   border-radius: 10px;

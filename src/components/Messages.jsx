@@ -4,7 +4,7 @@ import styled from "styled-components";
 function Messages(props) {
   // console.log(props.message.msgsfromHim[0]);
   return (
-    <Container href="/messaging">
+    <Container href="messaging">
       <img src={props.message.image} alt="" />
       <div>
         <h3>{props.message.user}</h3>

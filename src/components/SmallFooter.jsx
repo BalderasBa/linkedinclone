@@ -27,10 +27,10 @@ function SmallFooter() {
           <a href="#">Privacy & Terms</a>
           <img src={downSVG} alt="" />
           <Div clicked={clicked}>
-            <a href="">Privacy Policy</a>
-            <a href="">User Agreement</a>
-            <a href="">Cookies Policy</a>
-            <a href="">Copyright Policy</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">User Agreement</a>
+            <a href="#">Cookies Policy</a>
+            <a href="#">Copyright Policy</a>
           </Div>
         </li>
         <li>

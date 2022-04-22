@@ -54,7 +54,7 @@ function Leftside() {
         <a>
           <span>Follow Hashtags</span>
         </a>
-        <a href="/network">
+        <a href="network">
           <span>Discover more</span>
         </a>
       </CommunityCard>

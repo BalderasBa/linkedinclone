@@ -56,28 +56,28 @@ const Header = (props) => {
         <Nav>
           <NavListWrap>
             <NavList className={props.active === "home" ? "active" : ""}>
-              <a href="/home">
+              <a href="home">
                 <img src={navHomeSVG} alt="" />
                 <span>Home</span>
               </a>
             </NavList>
 
             <NavList className={props.active === "network" ? "active" : ""}>
-              <a href="/network">
+              <a href="network">
                 <img src={navNetworkSVG} alt="" />
                 <span>My Network</span>
               </a>
             </NavList>
 
             {/* <NavList className={props.active === "jobs" ? "active" : ""}>
-              <a href="/jobs">
+              <a href="jobs">
                 <img src={navJobsSVG} alt="" />
                 <span>Jobs</span>
               </a>
             </NavList> */}
 
             <NavList className={props.active === "messaging" ? "active" : ""}>
-              <a href="/messaging">
+              <a href="messaging">
                 <img src={navMessagingSVG} alt="" />
                 <span>
                   Messaging <span>3</span>
@@ -88,7 +88,7 @@ const Header = (props) => {
             <NavList
               className={props.active === "notifications" ? "active" : ""}
             >
-              <a href="/notifications">
+              <a href="notifications">
                 <img src={navNotificationsSVG} alt="" />
                 <span>
                   Notifications <span>11</span>
@@ -150,7 +150,7 @@ const Header = (props) => {
                 </span>
               </div>
             </div>
-            <a href="/profile">View Profile</a>
+            <a href="profile">View Profile</a>
           </UserInfo>
           <Account>
             <h4>Account</h4>
