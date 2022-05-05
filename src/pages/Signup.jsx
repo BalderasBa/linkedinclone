@@ -59,9 +59,7 @@ const Signup = () => {
             <Input>
               <input id="submit" type="submit" value="Agree & Join" />
             </Input>
-            <Forgot>
-              <a href="#">Forgot password ?</a>
-            </Forgot>
+            
           </Form>
           <p>
             By clicking Agree & Join, you agree to the LinkedIn
@@ -78,7 +76,7 @@ const Signup = () => {
             Continue with Google
           </Google>
           <p>
-            Already on LinkedIn ? <a href="/signin">Sign in</a>
+            Already on LinkedIn ? <a href="signin">Sign in</a>
           </p>
         </Section>
       </Container>
@@ -234,27 +232,7 @@ const Input = styled.div`
     }
   }
 `;
-const Forgot = styled.a`
-  margin: 10px 0 20px;
-  width: 50%;
-  align-self: flex-start;
-  a {
-    color: #3457b2;
-    text-decoration: none;
-    width: 100%;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 15px;
-    padding: 7px 15px;
-    border-radius: 5px;
-    transition: 200ms;
-    &:hover {
-      text-decoration: underline;
-      color: #fff;
-      background-color: #3457b2;
-    }
-  }
-`;
+
 const Or = styled.span`
   color: #5c5d61;
   display: flex;

@@ -20,14 +20,14 @@ const Login = () => {
 
   console.log(user);
   const route = useNavigate();
-  user && route("/home");
+  user && route("home");
 
   // to here
 
   return (
     <Container>
       <Nav>
-        <a href="/linkedinclone/">
+        <a href="/linkedinclone">
           <img src={loginSVG} alt="" />
         </a>
         <div>

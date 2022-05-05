@@ -50,7 +50,7 @@ const Section = styled.section`
     padding: 0 5px;
   }
 `;
-const Cover = styled.img.attrs({ src: { cardBgSVG } })`
+const Cover = styled.img.attrs({ src: cardBgSVG })`
   width: 100%;
   height: 150px;
   cursor: pointer;

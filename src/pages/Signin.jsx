@@ -47,7 +47,7 @@ const Signin = () => {
               <input id="submit" type="submit" value="Sign In" />
             </Input>
             <Forgot>
-              <a href="/forgotpassword">Forgot password ?</a>
+              <a href="forgotpassword">Forgot password ?</a>
             </Forgot>
           </Form>
 
@@ -61,7 +61,7 @@ const Signin = () => {
             Sign In with Apple
           </Google>
           <Forgot>
-            New to LinkedIn ? <a href="/signup">Join Now</a>
+            New to LinkedIn ? <a href="signup">Join Now</a>
           </Forgot>
         </Section>
       </Container>

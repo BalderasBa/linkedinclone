@@ -41,7 +41,7 @@ const Header = (props) => {
     <Container>
       <Content>
         <Logo>
-          <a href="/home">
+          <a href="home">
             <img src={homelogoSVG} alt="" />
           </a>
         </Logo>
