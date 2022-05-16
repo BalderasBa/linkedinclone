@@ -16,7 +16,7 @@ function App() {
   return (
     <BrowserRouter className="App">
       <Routes>
-        <Route path="/linkedinclone/" element={<Login />} />
+        <Route path="/linkedinclone" exact element={<Login />} />
         <Route path="/linkedinclone/signup" element={<Signup />} />
         <Route path="/linkedinclone/signin" element={<Signin />} />
         <Route path="/linkedinclone/forgotpassword" element={<ForgotPass />} />

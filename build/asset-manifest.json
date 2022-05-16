@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/linkedinclone/static/css/main.149aa04c.css",
-    "main.js": "/linkedinclone/static/js/main.726df0cd.js",
+    "main.js": "/linkedinclone/static/js/main.f0f95d4a.js",
     "static/media/shared-image.jpg": "/linkedinclone/static/media/shared-image.70300049edb58daa88ac.jpg",
     "static/media/login-welcom.svg": "/linkedinclone/static/media/login-welcom.5fab134b30015f482420fb159638d24f.svg",
     "static/media/linkedin.png": "/linkedinclone/static/media/linkedin.bb933d6809d6410387a0.png",
@@ -48,10 +48,10 @@
     "static/media/poll-icon.svg": "/linkedinclone/static/media/poll-icon.c0a4a8f344bc5271c44b8c69b69e584d.svg",
     "static/media/down-arrow.svg": "/linkedinclone/static/media/down-arrow.d80a1d0fe8db001b4aa433cce5ac867f.svg",
     "main.149aa04c.css.map": "/linkedinclone/static/css/main.149aa04c.css.map",
-    "main.726df0cd.js.map": "/linkedinclone/static/js/main.726df0cd.js.map"
+    "main.f0f95d4a.js.map": "/linkedinclone/static/js/main.f0f95d4a.js.map"
   },
   "entrypoints": [
     "static/css/main.149aa04c.css",
-    "static/js/main.726df0cd.js"
+    "static/js/main.f0f95d4a.js"
   ]
 }

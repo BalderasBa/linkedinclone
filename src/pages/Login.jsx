@@ -31,8 +31,8 @@ const Login = () => {
           <img src={loginSVG} alt="" />
         </a>
         <div>
-          <Join href="linkedinclone/signup">Join now</Join>
-          <SignIn href="linkedinclone/signin">Sign in</SignIn>
+          <Join href="https://balderasba.github.io/linkedinclone/signup">Join now</Join>
+          <SignIn href="https://balderasba.github.io/linkedinclone/signin">Sign in</SignIn>
         </div>
       </Nav>
       <Section>
